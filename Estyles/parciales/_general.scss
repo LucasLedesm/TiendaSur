@@ -1,3 +1,24 @@
-.bi-cup {
-    color: red !important;
+@import "./variables";
+.titulo {
+    font-family: $fuente;
+    font-size: 2rem;
+    color: $colorft;
+}
+.titulo2 {
+    font-family:$fuente;
+    font-size: 1rem;
+    color:$colorft;
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    font-family: $fuente;
+    font-size: 1rem;
+}
+.letrastitulo {
+    color:rgba(0, 0, 0, 0.39);
+}
+.letrastitulo:hover {
+    color: black;
+    transition: 1.5s;
 }

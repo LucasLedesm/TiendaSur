@@ -1,4 +1,35 @@
-.bi-cup {
-  color: red !important;
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+.titulo {
+  font-family: "Courier Prime", monospace;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+.titulo2 {
+  font-family: "Courier Prime", monospace;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.39);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buttons {
+  font-family: "Courier Prime", monospace;
+  font-size: 1rem;
+}
+
+.letrastitulo {
+  color: rgba(0, 0, 0, 0.39);
+}
+
+.letrastitulo:hover {
+  color: black;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 /*# sourceMappingURL=main.css.map */
