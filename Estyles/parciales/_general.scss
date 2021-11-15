@@ -22,3 +22,17 @@
     color: black;
     transition: 1.5s;
 }
+.buttons1 {
+    font-family: $fuente !important;
+    font-size: 2rem !important;
+    color: $colorft !important;
+    border-color: $colorft !important;
+    background-color: antiquewhite !important;
+    border: 0px !important;
+   
+}
+.buttons1:hover {
+        transition: 1s !important;
+        background-color: antiquewhite !important;
+        box-shadow: $bshadow
+}
